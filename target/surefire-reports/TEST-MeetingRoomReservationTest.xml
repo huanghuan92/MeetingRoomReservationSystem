@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="41" failures="0" name="MeetingRoomReservationTest" time="1.055" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="test" value="MeetingRoomReservationTest#testReservationFunction"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/hh/NetBeansProjects/MeetingRoomReservation"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/dz/_5tzpj7971sbt468pm8dl_9h0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="user.home" value="/Users/hh"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hh"/>
+    <property name="java.class.path" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven/boot/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=MeetingRoomReservationTest#testReservationFunction -Dmaven.ext.class.path=/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="/Users/hh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Applications/NetBeans/NetBeans 8.1.app/Contents/Resources/NetBeans/java/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="[0] 06:30\u002C 07:30\u002C Kevin\u002C reserve\u002C Reserve Room R1 in time range 06:30 to 07:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[0] 06:30\u002C 07:30\u002C Kevin\u002C reserve\u002C Reserve Room R1 in time range 06:30 to 07:30 successfully " time="0.007"/>
+  <testcase classname="[1] 08:30\u002C 09:30\u002C John\u002C reserve\u002C Reserve Room R1 in time range 08:30 to 09:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[1] 08:30\u002C 09:30\u002C John\u002C reserve\u002C Reserve Room R1 in time range 08:30 to 09:30 successfully " time="0"/>
+  <testcase classname="[2] 10:30\u002C 12:30\u002C kevin\u002C reserve\u002C Reserve Room R1 in time range 10:30 to 12:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[2] 10:30\u002C 12:30\u002C kevin\u002C reserve\u002C Reserve Room R1 in time range 10:30 to 12:30 successfully " time="0"/>
+  <testcase classname="[3] 10:30\u002C 12:30\u002C John\u002C reserve\u002C Reserve Room R2 in time range 10:30 to 12:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[3] 10:30\u002C 12:30\u002C John\u002C reserve\u002C Reserve Room R2 in time range 10:30 to 12:30 successfully " time="0"/>
+  <testcase classname="[4] 07:30\u002C 09:30\u002C Kelly\u002C reserve\u002C Reserve Room R2 in time range 07:30 to 09:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[4] 07:30\u002C 09:30\u002C Kelly\u002C reserve\u002C Reserve Room R2 in time range 07:30 to 09:30 successfully " time="0"/>
+  <testcase classname="[5] 07:30\u002C 09:30\u002C David\u002C reserve\u002C Reserve Room R3 in time range 07:30 to 09:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[5] 07:30\u002C 09:30\u002C David\u002C reserve\u002C Reserve Room R3 in time range 07:30 to 09:30 successfully " time="0"/>
+  <testcase classname="[6] 07:30\u002C 09:30\u002C Tom\u002C reserve\u002C Reserve Room R4 in time range 07:30 to 09:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[6] 07:30\u002C 09:30\u002C Tom\u002C reserve\u002C Reserve Room R4 in time range 07:30 to 09:30 successfully " time="0.001"/>
+  <testcase classname="[7] 07:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[7] 07:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0.004"/>
+  <testcase classname="[8] 06:30\u002C 11:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[8] 06:30\u002C 11:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0"/>
+  <testcase classname="[9] 08:30\u002C 10:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[9] 08:30\u002C 10:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0"/>
+  <testcase classname="[10] 09:00\u002C 10:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[10] 09:00\u002C 10:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0.001"/>
+  <testcase classname="[11] 06:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[11] 06:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0"/>
+  <testcase classname="[12] 08:30\u002C 09:00\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[12] 08:30\u002C 09:00\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0"/>
+  <testcase classname="[13] 06:30\u002C 09:00\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[13] 06:30\u002C 09:00\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0"/>
+  <testcase classname="[14] 09:00\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[14] 09:00\u002C 09:30\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0.003"/>
+  <testcase classname="[15] 09:00\u002C 09:20\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity (testReservationFunction)(MeetingRoomReservationTest)" name="[15] 09:00\u002C 09:20\u002C Mike\u002C reserve\u002C Reservation failed. No Availablity " time="0.002"/>
+  <testcase classname="[16] 07:30\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 07:30 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[16] 07:30\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 07:30 to 09:30 " time="0"/>
+  <testcase classname="[17] 06:30\u002C 11:30\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 11:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[17] 06:30\u002C 11:30\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 11:30 " time="0.001"/>
+  <testcase classname="[18] 08:30\u002C 10:30\u002C \u002C isAvailable\u002C No availability for time range 08:30 to 10:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[18] 08:30\u002C 10:30\u002C \u002C isAvailable\u002C No availability for time range 08:30 to 10:30 " time="0.001"/>
+  <testcase classname="[19] 09:00\u002C 10:30\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 10:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[19] 09:00\u002C 10:30\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 10:30 " time="0"/>
+  <testcase classname="[20] 06:30\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[20] 06:30\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 09:30 " time="0.002"/>
+  <testcase classname="[21] 08:30\u002C 09:00\u002C \u002C isAvailable\u002C No availability for time range 08:30 to 09:00 (testReservationFunction)(MeetingRoomReservationTest)" name="[21] 08:30\u002C 09:00\u002C \u002C isAvailable\u002C No availability for time range 08:30 to 09:00 " time="0"/>
+  <testcase classname="[22] 06:30\u002C 09:00\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 09:00 (testReservationFunction)(MeetingRoomReservationTest)" name="[22] 06:30\u002C 09:00\u002C \u002C isAvailable\u002C No availability for time range 06:30 to 09:00 " time="0"/>
+  <testcase classname="[23] 09:00\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[23] 09:00\u002C 09:30\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 09:30 " time="0.001"/>
+  <testcase classname="[24] 09:00\u002C 09:20\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 09:20 (testReservationFunction)(MeetingRoomReservationTest)" name="[24] 09:00\u002C 09:20\u002C \u002C isAvailable\u002C No availability for time range 09:00 to 09:20 " time="0"/>
+  <testcase classname="[25] 07:30\u002C 08:30\u002C \u002C isAvailable\u002C There is available room for time range 07:30 to 08:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[25] 07:30\u002C 08:30\u002C \u002C isAvailable\u002C There is available room for time range 07:30 to 08:30 " time="0.002"/>
+  <testcase classname="[26] null\u002C null\u002C John\u002C getReservations\u002C Room R2: 10:30-12:30. Room R1: 08:30-09:30.  (testReservationFunction)(MeetingRoomReservationTest)" name="[26] null\u002C null\u002C John\u002C getReservations\u002C Room R2: 10:30-12:30. Room R1: 08:30-09:30.  " time="0.001"/>
+  <testcase classname="[27] null\u002C null\u002C Paul\u002C getReservations\u002C You have no reservation (testReservationFunction)(MeetingRoomReservationTest)" name="[27] null\u002C null\u002C Paul\u002C getReservations\u002C You have no reservation " time="0.001"/>
+  <testcase classname="[28] 06:30\u002C 11:30\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 11:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[28] 06:30\u002C 11:30\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 11:30 " time="0"/>
+  <testcase classname="[29] 08:30\u002C 10:30\u002C John\u002C cancel\u002C No reservation in time range 08:30 to 10:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[29] 08:30\u002C 10:30\u002C John\u002C cancel\u002C No reservation in time range 08:30 to 10:30 " time="0"/>
+  <testcase classname="[30] 09:00\u002C 10:30\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 10:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[30] 09:00\u002C 10:30\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 10:30 " time="0.001"/>
+  <testcase classname="[31] 06:30\u002C 09:30\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[31] 06:30\u002C 09:30\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 09:30 " time="0"/>
+  <testcase classname="[32] 08:30\u002C 09:00\u002C John\u002C cancel\u002C No reservation in time range 08:30 to 09:00 (testReservationFunction)(MeetingRoomReservationTest)" name="[32] 08:30\u002C 09:00\u002C John\u002C cancel\u002C No reservation in time range 08:30 to 09:00 " time="0"/>
+  <testcase classname="[33] 06:30\u002C 09:00\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 09:00 (testReservationFunction)(MeetingRoomReservationTest)" name="[33] 06:30\u002C 09:00\u002C John\u002C cancel\u002C No reservation in time range 06:30 to 09:00 " time="0"/>
+  <testcase classname="[34] 09:00\u002C 09:30\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[34] 09:00\u002C 09:30\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 09:30 " time="0"/>
+  <testcase classname="[35] 09:00\u002C 09:20\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 09:20 (testReservationFunction)(MeetingRoomReservationTest)" name="[35] 09:00\u002C 09:20\u002C John\u002C cancel\u002C No reservation in time range 09:00 to 09:20 " time="0"/>
+  <testcase classname="[36] 08:30\u002C 09:30\u002C John\u002C cancel\u002C Reservation in time range 08:30 to 09:30 have been calcelled (testReservationFunction)(MeetingRoomReservationTest)" name="[36] 08:30\u002C 09:30\u002C John\u002C cancel\u002C Reservation in time range 08:30 to 09:30 have been calcelled " time="0"/>
+  <testcase classname="[37] null\u002C null\u002C John\u002C getReservations\u002C Room R2: 10:30-12:30.  (testReservationFunction)(MeetingRoomReservationTest)" name="[37] null\u002C null\u002C John\u002C getReservations\u002C Room R2: 10:30-12:30.  " time="0"/>
+  <testcase classname="[38] 07:30\u002C 09:30\u002C \u002C isAvailable\u002C There is available room for time range 07:30 to 09:30 (testReservationFunction)(MeetingRoomReservationTest)" name="[38] 07:30\u002C 09:30\u002C \u002C isAvailable\u002C There is available room for time range 07:30 to 09:30 " time="0"/>
+  <testcase classname="[39] 07:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reserve Room R1 in time range 07:30 to 09:30 successfully (testReservationFunction)(MeetingRoomReservationTest)" name="[39] 07:30\u002C 09:30\u002C Mike\u002C reserve\u002C Reserve Room R1 in time range 07:30 to 09:30 successfully " time="0.001"/>
+  <testcase classname="[40] null\u002C null\u002C Mike\u002C getReservations\u002C Room R1: 07:30-09:30.  (testReservationFunction)(MeetingRoomReservationTest)" name="[40] null\u002C null\u002C Mike\u002C getReservations\u002C Room R1: 07:30-09:30.  " time="0"/>
+</testsuite>
